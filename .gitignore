@@ -1,0 +1,33 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# HuggingFace & PyTorch model caches (if saved locally in project)
+.cache/
+models/
+*.pt
+*.bin
+*.safetensors
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE configs
+.idea/
+.vscode/
+*.swp
+*.swo
